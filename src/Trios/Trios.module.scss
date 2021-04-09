@@ -1,0 +1,17 @@
+.Trios{
+    width: 320px;
+    min-width: 32%;
+    min-height: 412px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media (max-width:321px){
+    .trios{
+        width: 100%;
+    }
+}

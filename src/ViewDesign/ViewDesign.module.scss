@@ -1,0 +1,44 @@
+.ViewDesign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    border: 1px solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    
+
+
+    h1{
+        color: white;
+        text-transform: uppercase;
+    }
+
+    div{
+        
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        img{
+            transition: all ease-in 0.2s;
+            margin: 0 0 0 5px;
+        }
+
+
+        &:hover{
+            text-decoration: underline;
+
+            img{
+                margin: 0 0 0 10px;
+            }
+        }
+
+    }
+
+    
+}
